@@ -15,11 +15,11 @@ class LectureInput{
         //System.out.println("Spinich Pasta - " + item3Price);
         double item4Price = 4.30;
         //System.out.println("Plain Pasta - " + item4Price);
-        //double item5Price = 2.99;
+        double item5Price = 2.99;
         //System.out.println("Small Pizza - " + item5Price);
-        //double item6Price = 4.99;
+        double item6Price = 4.99;
         //System.out.println("Medium Pizza - " + item6Price);
-        //double item7Price = 6.99;
+        double item7Price = 6.99;
         //System.out.println("Large Pizza - " + item7Price);
         double item8Price = 3.99;
         //System.out.println("Birthday Cake - " + item8Price);
@@ -49,38 +49,41 @@ class LectureInput{
         //javac LectureInput.java
 
         Scanner sc = new Scanner(System.in);
-        //SOP(edgjakl)
-        //String answer = 
-        //if(answer.equals("yes")){            
-        //}
-        //if(answer.equals("no"){            
-        //}
-        //System.out.println("Who is purchasing?");
-        //String name = sc.nextLine();
-        //System.out.println("How many Large Peperoni Pizzas would you like?");
-        //int item1Amt = sc.nextInt();
+        
+        int item1Amt = sc.nextInt();
+        sc.nextLine();
         //System.out.println("How many Vanilla Cupcakes would you like?");
-        //int item2Amt = sc.nextInt();
-        //System.out.println("How many Pepsis would you like?");
-        //int item3Amt = sc.nextInt();
+        int item2Amt = sc.nextInt();
+        sc.nextLine();
+        
+        int item3Amt = sc.nextInt();
+        sc.nextLine();
         System.out.println("Who is purchasing?");
         String name = sc.nextLine();
         System.out.println("Would you like any pizza?");
-        String = sc.nextLine();
+        String answer = sc.nextLine();
         if(answer.equals("yes")){
-        double item5Price = 2.99;
-        System.out.println("Small Pizza - " + item5Price);
-        double item6Price = 4.99;
-        System.out.println("Medium Pizza - " + item6Price);
-        double item7Price = 6.99;
-        System.out.println("Large Pizza - " + item7Price);
+        System.out.println("Small Pizza - 2.99");
+        System.out.println("Medium Pizza - 4.99");
+        System.out.println("Large Pizza - 6.99");
+        System.out.println("what size?");
+        String answer2 = sc.nextLine();
+        if(answer2.equals(Large));{
+
+        }
+        if(answer2.equals(Medium));{
+
+        }
+        if(answer2.equals(Small));{
+            
+        }
         }
 
         double item1Total = item1Price * item1Amt;
         double item2Total = item2Price * item2Amt;
         double item3Total = item3Price * item3Amt;
-        double item4Total = item4Price * item4Amt;
-        double grandtotal = (item1Total + item2Total + item3Total + item4Total);
+        //double item4Total = item4Price * item4Amt;
+        double grandtotal = (item1Total + item2Total + item3Total);
         System.out.println("Total is: " + grandtotal);
 
         System.out.println("how much would you like to tip?");
@@ -90,3 +93,14 @@ class LectureInput{
         System.out.println("Tip and total is " + (tip + grandtotal));
 	}
 }
+
+        //System.out.println("How many Pepsis would you like?");
+        //SOP(edgjakl)
+        //String answer = 
+        //if(answer.equals("yes")){            
+        //}
+        //if(answer.equals("no"){            
+        //}
+        //System.out.println("Who is purchasing?");
+        //String name = sc.nextLine();
+        //System.out.println("How many Large Peperoni Pizzas would you like?");

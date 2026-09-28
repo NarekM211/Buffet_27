@@ -24,5 +24,7 @@ class starter {
 		int num4 = (int)(Math.random() * (large-small) + small);
 		int num5 = (int)(Math.random() * (large-small) + small);
 		System.out.println(num1 + ", " + num2 + ", " + num3 + ", " + num4 + ", " + num5);
+
+		
 	}
 }
